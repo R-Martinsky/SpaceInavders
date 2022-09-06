@@ -1,0 +1,11 @@
+.\button.o: Button.c
+.\button.o: Button.h
+.\button.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\button.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\button.o: ST7735.h
+.\button.o: tm4c123gh6pm.h
+.\button.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\button.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\button.o: SysTick.h
+.\button.o: variable.h
+.\button.o: functions.h

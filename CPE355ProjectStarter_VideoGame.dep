@@ -1,0 +1,85 @@
+Dependencies for Project 'CPE355ProjectStarter', Target 'VideoGame': (DO NOT MODIFY !)
+F (.\startup.s)(0x606B9AA8)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\PLL.c)(0x606B9AA8)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLL.h)(0x606B9AA8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (tm4c123gh6pm.h)(0x606B9AA8)
+F (.\ST7735.c)(0x606B9AA8)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C8A654)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (ST7735.h)(0x606B9AA8)
+I (tm4c123gh6pm.h)(0x606B9AA8)
+F (.\CPE355ProjectStarter.c)(0x608DFF49)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\cpe355projectstarter.o --omf_browse .\cpe355projectstarter.crf --depend .\cpe355projectstarter.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C8A654)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C8A654)
+I (ST7735.h)(0x606B9AA8)
+I (PLL.h)(0x606B9AA8)
+I (tm4c123gh6pm.h)(0x606B9AA8)
+I (Slide.h)(0x608DF0A9)
+I (text.h)(0x608DF62F)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C8A654)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C8A654)
+I (functions.h)(0x608C9B8A)
+I (SysTick.h)(0x605A295C)
+I (Button.h)(0x608DF305)
+I (random.h)(0x60850CE9)
+I (variable.h)(0x608DFA18)
+I (tasks.h)(0x608DF76A)
+F (.\Slide.h)(0x608DF0A9)()
+F (.\Slide.c)(0x608DF168)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\slide.o --omf_browse .\slide.crf --depend .\slide.d)
+I (Slide.h)(0x608DF0A9)
+I (tm4c123gh6pm.h)(0x606B9AA8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (PLL.h)(0x606B9AA8)
+F (.\text.c)(0x608DFA18)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\text.o --omf_browse .\text.crf --depend .\text.d)
+I (text.h)(0x608DF62F)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C8A654)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (ST7735.h)(0x606B9AA8)
+I (tm4c123gh6pm.h)(0x606B9AA8)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C8A654)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C8A654)
+I (functions.h)(0x608C9B8A)
+I (tasks.h)(0x608DF76A)
+I (variable.h)(0x608DFA18)
+F (.\text.h)(0x608DF62F)()
+F (..\Lab4_Ritz\SysTick.h)(0x605A295C)()
+F (..\Lab4_Ritz\SysTick.c)(0x608DFF54)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+F (.\Button.c)(0x608DF168)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\button.o --omf_browse .\button.crf --depend .\button.d)
+I (Button.h)(0x608DF305)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C8A654)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (ST7735.h)(0x606B9AA8)
+I (tm4c123gh6pm.h)(0x606B9AA8)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C8A654)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C8A654)
+I (SysTick.h)(0x605A295C)
+I (variable.h)(0x608DFA18)
+I (functions.h)(0x608C9B8A)
+F (.\Button.h)(0x608DF305)()
+F (.\random.s)(0x60850CE2)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\random.h)(0x60850CE9)()
+F (.\Tasks.c)(0x608DFF49)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\tasks.o --omf_browse .\tasks.crf --depend .\tasks.d)
+I (tasks.h)(0x608DF76A)
+I (tm4c123gh6pm.h)(0x606B9AA8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (Slide.h)(0x608DF0A9)
+I (PLL.h)(0x606B9AA8)
+I (variable.h)(0x608DFA18)
+I (functions.h)(0x608C9B8A)
+I (Button.h)(0x608DF305)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C8A654)
+I (ST7735.h)(0x606B9AA8)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C8A654)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C8A654)
+I (SysTick.h)(0x605A295C)
+I (random.h)(0x60850CE9)
+F (.\functions.c)(0x608C9B97)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\functions.o --omf_browse .\functions.crf --depend .\functions.d)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C8A654)
+I (functions.h)(0x608C9B8A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (ST7735.h)(0x606B9AA8)
+F (.\Tasks.h)(0x608DF76A)()
+F (.\functions.h)(0x608C9B8A)()
+F (.\Variable.h)(0x608DFA18)()

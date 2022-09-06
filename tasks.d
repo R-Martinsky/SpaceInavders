@@ -1,0 +1,15 @@
+.\tasks.o: Tasks.c
+.\tasks.o: tasks.h
+.\tasks.o: tm4c123gh6pm.h
+.\tasks.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\tasks.o: Slide.h
+.\tasks.o: PLL.h
+.\tasks.o: variable.h
+.\tasks.o: functions.h
+.\tasks.o: Button.h
+.\tasks.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\tasks.o: ST7735.h
+.\tasks.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\tasks.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\tasks.o: SysTick.h
+.\tasks.o: random.h

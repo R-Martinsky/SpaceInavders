@@ -1,0 +1,186 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Spring 2021 School\CPE 323-355USB\Video Game\CPE355ProjectStarter.uvproj
+Project File Date:  04/29/2021
+
+<h2>Output:</h2>
+Build target 'VideoGame'
+linking...
+Program Size: Code=8032 RO-data=9924 RW-data=112 ZI-data=2368  
+".\CPE355ProjectStarter.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+-D: subscript out of range
+                Bunker[i].image[2] = Bunker2;
+CPE355ProjectStarter.c(1285): warning:  #177-D: variable "Anyalive" was declared but never referenced
+                                int Anyalive = 1;
+CPE355ProjectStarter.c(1262): warning:  #550-D: variable "Anyalive" was set but never used
+                int     Anyalive = 0;
+CPE355ProjectStarter.c(1415): warning:  #177-D: variable "Flag" was declared but never referenced
+  int   Flag = 1;               
+CPE355ProjectStarter.c(1427): warning:  #69-D: integer conversion resulted in truncation
+        Random_Init(9840423750);
+CPE355ProjectStarter.c(1514): warning:  #111-D: statement is unreachable
+        DelayWait10ms(100);
+CPE355ProjectStarter.c: 7 warnings, 0 errors
+compiling SysTick.c...
+..\Lab4_Ritz\SysTick.c(63): error:  #40: expected an identifier
+                */
+..\Lab4_Ritz\SysTick.c(64): error: At end of source:  #65: expected a ";"
+..\Lab4_Ritz\SysTick.c: 0 warnings, 2 errors
+compiling Tasks.c...
+".\CPE355ProjectStarter.axf" - 2 Error(s), 7 Warning(s).
+Target not created
+le "y" was set but never used
+        int y = Low_Left_y + 13;
+text.c: 4 warnings, 0 errors
+compiling Button.c...
+Button.c(33): warning:  #1-D: last line of file ends without a newline
+        
+Button.c: 1 warning, 0 errors
+compiling Tasks.c...
+Tasks.c(135): error:  #20: identifier "game_status" is undefined
+                                        game_status = 2;
+Tasks.c(198): error:  #20: identifier "game_status" is undefined
+                game_status = 3;
+Tasks.c(387): error:  #20: identifier "game_status" is undefined
+                                                game_status = 2;
+Tasks.c(402): error:  #20: identifier "game_status" is undefined
+                                                game_status = 2;
+Tasks.c: 0 warnings, 4 errors
+".\CPE355ProjectStarter.axf" - 4 Error(s), 12 Warning(s).
+Target not created
+oot_SW();
+CPE355ProjectStarter.c(1328): error:  #20: identifier "dead" is undefined
+                if (SW_Pressed && Laser.life == dead)
+CPE355ProjectStarter.c(1335): error:  #20: identifier "alive" is undefined
+  if(Laser.life == alive)
+CPE355ProjectStarter.c(1341): error:  #20: identifier "dead" is undefined
+                        Laser.life = dead;
+CPE355ProjectStarter.c(1348): error:  #20: identifier "alive" is undefined
+                        if(Missile.life == alive){
+CPE355ProjectStarter.c(1355): error:  #20: identifier "dead" is undefined
+                                                Missile.life = dead;
+CPE355ProjectStarter.c(1360): error:  #20: identifier "dead" is undefined
+                                        Missile.life = dead;
+CPE355ProjectStarter.c(1286): warning:  #550-D: variable "Anyalive" was set but never used
+  int           Anyalive = 0;
+CPE355ProjectStarter.c(1387): error:  #20: identifier "alive" is undefined
+                                if(Enemy[i][j].life == alive)
+CPE355ProjectStarter.c(1403): error:  #20: identifier "alive" is undefined
+                                                if(Laser.life == alive)
+CPE355ProjectStarter.c(1421): error:  #20: identifier "alive" is undefined
+                                if(Missile.life == alive){
+CPE355ProjectStarter.c(1449): warning:  #177-D: variable "Flag" was declared but never referenced
+  int   Flag = 1;               
+CPE355ProjectStarter.c(1461): warning:  #223-D: function "Random_Init" declared implicitly
+        Random_Init(9840423750);
+CPE355ProjectStarter.c(1469): warning:  #223-D: function "Shoot_SW" declared implicitly
+        while (!Shoot_SW()){
+CPE355ProjectStarter.c(1498): warning:  #223-D: function "Shoot_SW" declared implicitly
+                                while (!Shoot_SW()){}
+CPE355ProjectStarter.c(1533): warning:  #111-D: statement is unreachable
+        DelayWait10ms(100);
+CPE355ProjectStarter.c: 11 warnings, 22 errors
+compiling text.c...
+text.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif
+text.c(35): error:  #165: too few arguments in function call
+                        MainMenu();
+text.c(54): warning:  #224-D: the format string requires additional arguments
+                sprintf(score_val, "%d");
+text.c(82): warning:  #550-D: variable "y" was set but never used
+        int y = Up_Left_y;
+text.c(118): warning:  #550-D: variable "x" was set but never used
+        int x = Low_Left_x;
+text.c(119): warning:  #550-D: variable "y" was set but never used
+        int y = Low_Left_y + 13;
+text.c(148): error:  #165: too few arguments in function call
+        Draw_Text();
+text.c(153): error:  #165: too few arguments in function call
+        Draw_Text();
+text.c(146): warning:  #550-D: variable "y" was set but never used
+        int y = 27 + 3*10;
+text.c: 6 warnings, 3 errors
+compiling Button.c...
+Button.h(18): error:  #130: expected a "{"
+  void Button_Update(void);
+variable.h(7): warning:  #12-D: parsing restarts here after previous syntax error
+  typedef enum {dead, alive} status_t;
+variable.h(7): error:  #20: identifier "dead" is undefined
+  typedef enum {dead, alive} status_t;
+variable.h(7): error:  #20: identifier "alive" is undefined
+  typedef enum {dead, alive} status_t;
+variable.h(7): error:  #65: expected a ";"
+  typedef enum {dead, alive} status_t;
+variable.h(7): error:  #77-D: this declaration has no storage class or type specifier
+  typedef enum {dead, alive} status_t;
+variable.h(15): error:  #757: variable "status_t" is not a type name
+                status_t life;  // dead/alive
+Button.c(7): error:  #247: function "Button_Init" has already been defined
+  void Button_Init(void)
+Button.c(24): error:  #20: identifier "alive" is undefined
+        Laser.life = alive;
+Button.c(33): warning:  #1-D: last line of file ends without a newline
+        
+Button.c: 2 warnings, 8 errors
+compiling Tasks.c...
+Button.h(18): error:  #130: expected a "{"
+  void Button_Update(void);
+Tasks.c(46): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+Tasks.c(48): error:  #20: identifier "FR_30_HZ" is undefined
+    NVIC_ST_RELOAD_R = FR_30_HZ-1;// reload value
+Tasks.c(92): warning:  #223-D: function "Shoot_SW" declared implicitly
+        bool SW_Pressed = Shoot_SW();
+Tasks.c(124): error:  #20: identifier "i_bound" is undefined
+        for (int i = 0; i < i_bound; i++)
+Tasks.c(127): error:  #20: identifier "j_bound" is undefined
+                for (int j = 0; j < j_bound; j++)
+Tasks.c(135): error:  #20: identifier "game_status" is undefined
+                                        game_status = 2;
+Tasks.c(174): error:  #20: identifier "i_bound" is undefined
+                                i_bound = Level_1_Rows;
+Tasks.c(175): error:  #20: identifier "j_bound" is undefined
+                                j_bound = Level_1_Enemies;
+Tasks.c(190): error:  #20: identifier "enemy_Count" is undefined
+        enemy_Count = 0;
+Tasks.c(191): error:  #20: identifier "i_bound" is undefined
+        for (int i = 0; i < i_bound; i++)
+Tasks.c(192): error:  #20: identifier "j_bound" is undefined
+                for(int j = 0; j < j_bound; j++)
+Tasks.c(196): error:  #20: identifier "i_bound" is undefined
+        if (enemy_Count == i_bound*j_bound)
+Tasks.c(196): error:  #20: identifier "j_bound" is undefined
+        if (enemy_Count == i_bound*j_bound)
+Tasks.c(198): error:  #20: identifier "game_status" is undefined
+                game_status = 3;
+Tasks.c(204): error:  #20: identifier "enemy_Count" is undefined
+        if (enemy_Count == i_bound*j_bound)
+Tasks.c(204): error:  #20: identifier "i_bound" is undefined
+        if (enemy_Count == i_bound*j_bound)
+Tasks.c(204): error:  #20: identifier "j_bound" is undefined
+        if (enemy_Count == i_bound*j_bound)
+Tasks.c(209): error:  #20: identifier "i_bound" is undefined
+                int i = i_bound-1;
+Tasks.c(210): warning:  #223-D: function "Random32" declared implicitly
+                int j = Random32() % j_bound; // random enemy on last row
+Tasks.c(210): error:  #20: identifier "j_bound" is undefined
+                int j = Random32() % j_bound; // random enemy on last row
+Tasks.c(256): error:  #20: identifier "i_bound" is undefined
+                int i = i_bound-1;
+Tasks.c(258): error:  #20: identifier "j_bound" is undefined
+                for (int j = 0; j < j_bound; j++)
+Tasks.c(387): error:  #20: identifier "game_status" is undefined
+                                                game_status = 2;
+Tasks.c(402): error:  #20: identifier "game_status" is undefined
+                                                game_status = 2;
+Tasks.c(432): error:  #20: identifier "clear_player_ship" is undefined
+        clear_player_ship = 1;
+Tasks.c: 3 warnings, 23 errors
+".\CPE355ProjectStarter.axf" - 56 Error(s), 22 Warning(s).
+Target not created
